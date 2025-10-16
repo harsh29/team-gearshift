@@ -4,3 +4,16 @@ Just customize your theme here.
 ================================================== */
 
 body {}
+
+/* Logo sizing */
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Hero section logo sizing */
+.hero img.intro {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+}
