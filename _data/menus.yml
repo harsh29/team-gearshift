@@ -11,7 +11,7 @@ topmenu:
   url: "contact/"
 
 - title: Categories
-  url: "pages/categories"
+  url: "categories/"
 
 # Footer Menu
 footermenu:
