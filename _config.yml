@@ -1,0 +1,58 @@
+# Jekyll Configuration for Team 60855 Gearshift
+# ================================================
+
+# Site Settings
+title: Team 60855 Gearshift
+description: A passionate FLL robotics team competing in FIRST LEGO League 2025-2026
+baseurl: "" # Leave empty if using custom domain, or "/repository-name" for GitHub Pages
+url: "https://yourusername.github.io" # Update with your GitHub Pages URL
+
+# Team Information
+team:
+  number: "60855"
+  name: "Gearshift"
+  season: "2025-2026"
+  location: "Your School/Location"
+  email: "team60855@gearshift.fll"
+
+# Social Media (optional - uncomment and add your links)
+# social:
+#   twitter: "https://twitter.com/teamgearshift"
+#   instagram: "https://instagram.com/teamgearshift"
+#   youtube: "https://youtube.com/@teamgearshift"
+
+# Build Settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections for Blog Posts
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Team Gearshift"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Markdown Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
