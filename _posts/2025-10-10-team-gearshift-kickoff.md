@@ -3,9 +3,10 @@ layout: post
 title: "Team Gearshift Kickoff Meeting"
 date: 2025-10-10
 category: Team
-author: "Whole Team"
+author: team-gearshift
 tags: [Team Updates, Season Kickoff, FLL]
 excerpt: "Welcome to Team 60855 Gearshift's engineering blog! This is where we'll share our robotics journey throughout the 2025-2026 FLL season."
+featured: true
 ---
 
 Welcome to Team 60855 Gearshift's engineering blog! This is where we'll share our robotics journey throughout the 2025-2026 FLL season.

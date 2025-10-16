@@ -3,7 +3,7 @@ layout: post
 title: "Building Our First Autonomous Program"
 date: 2025-10-15
 category: Programming
-author: "Programming Team"
+author: team-gearshift
 tags: [Python, PID Control, Autonomous, Programming]
 excerpt: "Today we reached a major milestone - our robot successfully completed its first autonomous mission! Here's how we did it."
 ---

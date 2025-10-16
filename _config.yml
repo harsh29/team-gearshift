@@ -2,10 +2,17 @@
 # ================================================
 
 # Site Settings
-title: Team 60855 Gearshift
+title: "Team 60855 Gearshift"
+email: team60855@gearshift.fll
 description: A passionate FLL robotics team competing in FIRST LEGO League 2025-2026
-baseurl: "/team-gearshift" # Leave empty if using custom domain, or "/repository-name" for GitHub Pages
-url: "https://harsh29.github.io" # Update with your GitHub Pages URL
+timezone: UTC
+baseurl: "/team-gearshift"
+url: "https://harsh29.github.io"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+locale: en_us
+lang: en_us
 
 # Team Information
 team:
@@ -15,17 +22,50 @@ team:
   location: "Your School/Location"
   email: "team60855@gearshift.fll"
 
-# Social Media (optional - uncomment and add your links)
-# social:
-#   twitter: "https://twitter.com/teamgearshift"
-#   instagram: "https://instagram.com/teamgearshift"
-#   youtube: "https://youtube.com/@teamgearshift"
+# Pagination
+paginate: 30
 
-# Build Settings
-theme: minima
+# Feed Settings
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
+# Markdown Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
+
+# Sass Settings
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Authors
+authors:
+  team-gearshift:
+    name: Team Gearshift
+    display_name: Team 60855 Gearshift
+    avatar: 'assets/images/avatar.png'
+    email: team60855@gearshift.fll
+    web: https://harsh29.github.io/team-gearshift/
+    description: "Team 60855 Gearshift - A passionate FLL robotics team competing in FIRST LEGO League 2025-2026 season."
+
+# Social Media (Update with your actual links)
+social:
+  instagram: https://www.instagram.com/teamgearshift/
+  facebook: https://www.facebook.com/teamgearshift/
+  twitter: https://twitter.com/teamgearshift/
+
+# Build Settings - Remove theme line since we're using local theme files
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
 
 # Collections for Blog Posts
 collections:
@@ -40,19 +80,15 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Team Gearshift"
+      author: team-gearshift
 
 # Exclude from processing
 exclude:
   - README.md
+  - QUICKSTART.md
+  - PROJECT_SUMMARY.md
+  - HOSTING_INSTRUCTIONS.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
-# Markdown Settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-

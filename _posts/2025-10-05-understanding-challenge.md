@@ -3,9 +3,10 @@ layout: post
 title: "Understanding This Year's Challenge"
 date: 2025-10-05
 category: Strategy
-author: "Strategy Team"
+author: team-gearshift
 tags: [Strategy, Game Analysis, Planning]
 excerpt: "The first step in any FLL season is understanding the game. Here's how we broke down this year's challenge."
+featured: true
 ---
 
 The first step in any FLL season is understanding the game. Here's how we broke down this year's challenge.

@@ -3,9 +3,10 @@ layout: post
 title: "Designing Our Mission Attachment System"
 date: 2025-10-12
 category: Design
-author: "Build Team"
+author: team-gearshift
 tags: [Robot Design, Attachments, Building]
 excerpt: "One of the biggest challenges in FLL is designing attachments that can complete multiple missions quickly. Here's our approach."
+featured: true
 ---
 
 One of the biggest challenges in FLL is designing attachments that can complete multiple missions quickly. Here's our approach.
