@@ -9,7 +9,7 @@ timezone: UTC
 baseurl: "/team-gearshift"
 url: "https://harsh29.github.io"
 permalink: "/:title/"
-logo: 'assets/images/logo.png'
+logo: 'assets/images/gearshift-logo.png'
 favicon: 'assets/images/favicon.ico'
 locale: en_us
 lang: en_us
@@ -48,7 +48,7 @@ authors:
   team-gearshift:
     name: Team Gearshift
     display_name: Team 60855 Gearshift
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/gearshift-logo.png'
     email: team60855@gearshift.fll
     web: https://harsh29.github.io/team-gearshift/
     description: "Team 60855 Gearshift - A passionate FLL robotics team competing in FIRST LEGO League 2025-2026 season."
